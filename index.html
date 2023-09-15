@@ -125,58 +125,71 @@
         </ul>
       </section>
       <!-- team section -->
-      <section>
-        <h3>Who we are</h3>
-        <h2>Meet our team</h2>
-        <hr />
-        <p>
+      <section class="team">
+        <h3 class="team-subtitle">Who we are</h3>
+        <h2 class="team-title">Meet our team</h2>
+        <hr class="team-line" />
+        <p class="team-desc">
           Who we are Lorem ipsum dolor sit amet, consectetur adipiscing elit,
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
           enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
           ut aliquip ex ea commodo consequat.
         </p>
-        <ul>
+        <ul class="team-list">
           <!-- person 1 -->
-          <li>
+          <li class="team-item">
             <img
+              class="team-img"
               width="380"
               height="470"
               src="./img/team/first-man.jpg"
               alt="first man"
             />
-            <h4>Matthew Dix</h4>
-            <p>Graphic Design</p>
+            <h4 class="team-name">Matthew Dix</h4>
+            <p class="team-prof">Graphic Design</p>
           </li>
           <!-- person 2 -->
-          <li>
+          <li class="team-item">
             <img
+              class="team-img"
               width="380"
               height="470"
               src="./img/team/second-man.jpg"
               alt="second man"
             />
-            <h4>Christopher Campbell</h4>
-            <p>Branding/UX design</p>
+            <h4 class="team-name">Christopher Campbell</h4>
+            <p class="team-prof">Branding/UX design</p>
           </li>
           <!-- person 3 -->
-          <li>
+          <li class="team-item">
             <img
+              class="team-img"
               width="380"
               height="470"
               src="./img/team/third-man.jpg"
               alt="third man"
             />
-            <h4>Michael Fertig</h4>
-            <p>Developer</p>
+            <h4 class="team-name">Michael Fertig</h4>
+            <p class="team-prof">Developer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <hr />
-      <h4>&copy; 2016 MoGo free PSD template by <span>Laaqiq</span></h4>
-      <input type="text" name="user-name" placeholder="Your Email..." />
-      <button>Subscribe</button>
+    <footer class="footer">
+      <hr class="footer-line" />
+      <p class="footer-info">
+        &copy; 2016 MoGo free PSD template by
+        <span class="footer-accent">Laaqiq</span>
+      </p>
+      <label class="footer-caption">
+        <input
+          class="footer-input"
+          type="email"
+          name="user-name"
+          placeholder="Your Email..."
+        />
+      </label>
+      <button type="submit">Subscribe</button>
     </footer>
   </body>
 </html>
