@@ -5,3 +5,203 @@
   --black: #333333;
   --white: #ffffff;
 }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header {
+}
+
+.header-logo {
+  color: var(--turquoise);
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.header-nav {
+}
+
+.header-list {
+}
+
+.header-item {
+}
+
+.header-link {
+  color: var(--turquoise);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.header-link:hover {
+  color: var(--red);
+}
+
+.hero {
+}
+
+.hero-subtitle {
+  color: var(--black);
+  font-family: Kaushan Script;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.hero-title {
+  color: var(--black);
+  font-size: 36px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+}
+
+.hero-line {
+  width: 60px;
+  height: 4px;
+  background-color: var(--red);
+  border: none;
+}
+
+.hero-list {
+}
+
+.hero-item {
+}
+
+.hero-img {
+}
+
+.hero-header {
+  color: var(--black);
+  font-size: 17px;
+  font-weight: 400;
+  font-variant: small-caps;
+}
+
+.hero-desc {
+  color: var(--grey);
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.47;
+}
+
+.team {
+}
+
+.team-subtitle {
+  color: var(--black);
+  font-family: Kaushan Script;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.team-title {
+  color: var(--black);
+  font-size: 36px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+}
+
+.team-line {
+  width: 60px;
+  height: 4px;
+  background: var(--red);
+  border: none;
+}
+
+.team-desc {
+  color: var(--grey);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.team-list {
+}
+
+.team-item {
+}
+
+.team-img {
+}
+
+.team-name {
+  color: var(--black);
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  font-variant: all-small-caps;
+}
+
+.team-prof {
+  color: var(--grey);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.footer {
+  border-top: solid 1px var(--grey);
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0px;
+
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.footer-info {
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-link {
+  color: var(--red);
+}
+
+.footer-caption {
+}
+
+.footer-input {
+  border: solid 1px var(--grey);
+  background-color: var(--white);
+}
+
+.footer-input::placeholder {
+  color: var(--grey);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.footer-button {
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+  background: var(--turquoise);
+  border: none;
+  padding: 9.75px 38px 12.67px 38px;
+}
